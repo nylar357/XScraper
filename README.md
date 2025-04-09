@@ -26,8 +26,7 @@ A Python-based web scraper designed to gather publicly available information fro
 
 This project provides a configurable web scraping tool focused on extracting data relevant to cybersecurity professionals. It can be adapted to monitor various online sources for indicators of compromise (IoCs), mentions of vulnerabilities, potential data leaks (on public sites like pastebins), or other security-related keywords and patterns.                                                                                                                   
 
-*(Optional: Add a screenshot or GIF here if applicable)*                                                          
-`![preview] ([img/vulnscraper.png])`                                                                  
+![preview](img/vulnscraper.png)                                                                  
 
 ## Purpose                                                                                                        
 
