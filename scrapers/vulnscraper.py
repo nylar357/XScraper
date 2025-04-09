@@ -4,6 +4,11 @@ import csv
 import datetime
 import time
 import random
+# --- Creation ---
+# by nylar357
+# email :bryce_polymorph@proton.me
+# www.linkedin.com/in/brycezg
+# Free Use but please give me some credit
 
 # --- Configuration ---
 HEADERS = {
