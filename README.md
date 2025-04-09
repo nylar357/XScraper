@@ -81,23 +81,19 @@ In the realm of cybersecurity, staying informed about emerging threats, vulnerab
 
 *(Provide clear examples of how to run the script.)*                                                              
 
-**Example 1: Using a configuration file:**                                                                        
+**Example 1: Using the built in configuration:**                                                                        
 
 ```bash                                                                                                           
-python scraper.py --config config.yaml                                                                            
+python3 vulnscraper.py                                                                            
 ```                                                                                                               
 
-**Example 2: Specifying targets and keywords via command line (if supported):**                                                                                                                                                      
+**Example 2: Specifying targets and keywords via command line (not yet supported):**                                                                                                                                                      
 
 ```bash                                                                                                           
 python scraper.py --urls "https://site1.com,https://site2.org" --keywords "keyword1,keyword2" --output results.json                                                                                                                  
 ```                                                                                                               
 
-**Example 3: Displaying help:**                                                                                   
-
-```bash                                                                                                           
-python scraper.py --help                                                                                          
-```                                                                                                               
+                                                                                                               
 
 ## Ethical Considerations                                                                                         
 
