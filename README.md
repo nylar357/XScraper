@@ -14,8 +14,7 @@ A Python-based web scraper designed to gather publicly available information fro
 -   [Purpose](#purpose)                                                                                                                                                                                                                                                                                                                                                                                                                                                    
 -   [Features](#features)                                                                                                                                                                                                                                                                                                                                                                                                                                                  
 -   [Technology Stack](#technology-stack)                                                                                                                                                                                                                                                                                                                                                                                                                                  
--   [Installation](#installation)                                                                                                                                                                                                                                                                                                                                                                                                                                          
--   [Configuration](#configuration)                                                                                                                                                                                                                                                                                                                                                                                                                                        
+-   [Installation](#installation)                                                                                                                                                                                                                                                                                                                                                                                                                                
 -   [Usage](#usage)                                                                                                                                                                                                                                                                                                                                                                                                                                                        
 -   [Ethical Considerations](#ethical-considerations)                                                                                                                                                                                                                                                                                                                                                                                                                      
 -   [Contributing](#contributing)                                                                                                                                                                                                                                                                                                                                                                                                                                          
@@ -63,8 +62,8 @@ In the realm of cybersecurity, staying informed about emerging threats, vulnerab
 
 1.  **Clone the repository:**                                                                                     
     ```bash                                                                                                       
-    git clone [your-repo-link]                                                                                    
-    cd [Your Project Name]                                                                                        
+    git clone https://github.com/nylar357/VulnScraper.git                                                                                    
+    cd VulnScraper                                                                                        
     ```                                                                                                           
 
 2.  **Create a virtual environment (recommended):**                                                               
@@ -75,36 +74,9 @@ In the realm of cybersecurity, staying informed about emerging threats, vulnerab
 
 3.  **Install dependencies:**                                                                                     
     ```bash                                                                                                       
-    pip install -r requirements.txt                                                                               
+    pip install requests beautifulsoup4 lxml                                                                               
     ```                                                                                                           
 
-## Configuration                                                                                                  
-
-*(Describe how to configure the scraper. This might involve a config file, environment variables, or command-line arguments.)*                                                                                                       
-
-Example using a `config.yaml` (or `.ini`, `.env`):                                                                
-
-```yaml                                                                                                           
-# config.yaml example                                                                                             
-target_urls:                                                                                                      
-  - https://example-forum.com/security-news                                                                       
-  - https://pastebin.example/archive # Be very careful with paste sites                                                                                                                                                              
-  - https://nvd.nist.gov/vuln/search # Example official source                                                    
-
-keywords:                                                                                                         
-  - "CVE-2023-XXXXX"                                                                                              
-  - "Zero-day exploit"                                                                                            
-  - "CompanyName Internal" # Use sensitive keywords ethically and legally!                                                                                                                                                           
-
-output_file: "results.csv"                                                                                        
-output_format: "csv" # or json                                                                                    
-
-# Respectful scraping settings                                                                                    
-request_delay_seconds: 5                                                                                          
-user_agent: "Ethical Security Research Bot (contact: your-email@example.com)" # Be transparent                                                                                                                                       
-```                                                                                                               
-
-Ensure you create and populate the necessary configuration file(s) before running.                                                                                                                                                   
 
 ## Usage                                                                                                          
 
