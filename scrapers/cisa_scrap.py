@@ -21,7 +21,7 @@ def scrape_nvd_recent_cves(max_cves=20):
     Note: NVD has an API which is the PREFERRED method. This is an example.
     """
     print("\n--- Scraping NVD for Recent CVEs ---")
-    url = f"deviantart.com"
+    url = f"https://nvd.nist.gov/vuln/search/results?isCvesOrCvss=true&results_type=overview&query=&search_type=all&startIndex=0"
     cve_list = []
 
     try:
