@@ -3,7 +3,7 @@ import os
 from bs4 import BeautifulSoup                   
 from urllib.parse import urljoin, urlparse      
                                                                                                      
-                                                                                                                                                
+# images scraper - prompt supported #                                                                                                                                                
 def scrape_images(url, folder_name="downloaded_images"):                                                                                        
     """                                                                                                                                         
     Scrapes all images from a given URL and saves them to a specified folder.                                                                   
