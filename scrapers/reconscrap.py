@@ -1,16 +1,10 @@
 import requests
 import re
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Comment
 import argparse
 import warnings
 from urllib.parse import urljoin
-# --- Creation ---
-# by nylar357
-# email :bryce_polymorph@proton.me
-# www.linkedin.com/in/brycezg
-# Free Use but please give me some credit
 
-# --- Configuration ---
 # Suppress only the specific InsecureRequestWarning from urllib3
 warnings.filterwarnings('ignore', message='Unverified HTTPS request')
 
@@ -231,8 +225,8 @@ def print_results(results):
     if results['comments']:
         print(f"Found {len(results['comments'])} comments. Potential sensitive ones logged during scan.")
         # Optionally print all comments (can be very verbose)
-        # for i, comment in enumerate(results['comments']):
-        #     print(f"Comment {i+1}: {comment[:150].strip()}...") # Truncate long comments
+        for i, comment in enumerate(results['comments']):
+             print(f"Comment {i+1}: {comment[:150].strip()}...") # Truncate long comments
     else:
         print("No HTML comments found.")
 
