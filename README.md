@@ -5,7 +5,7 @@
 
 [![Watch the video](img/marylinavatar.png)](https://youtu.be/kjF6x4r2KBk)
 
-### Xscrap allows for proxy usage, user agent customizing, scraps robots.txt, site related emails, and sub-domain enumeration.
+### Xscrap allows for proxy usage, user agent customizing, scraps robots.txt, site related emails, and sub-domain enumeration.  Wordlist option for subdomain enumeration.
 1.  **Install Deps:**                                                                                     
     ``` python                                                                                                       
     Virtual Env
@@ -19,7 +19,7 @@
 2.  **Usage::**                                                               
     ``` python                                                                                                      
 
-    python3 xscrap.py url --proxy proxyurl
+    python3 xscrap.py url --proxy proxyurl -w wordlist
     ```     
                                                                                                                                                                                                                                                                                                                                                                         
                                                                                                                                                                                                                                                                                                                                                                          
