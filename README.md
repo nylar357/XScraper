@@ -4,6 +4,23 @@
 ### Video Below
 
 [![Watch the video](img/marylinavatar.png)](https://youtu.be/kjF6x4r2KBk)
+Xscrap allows for proxy usage, user agent customizing, scraps robots.txt, site related emails, and sub-domain enumeration.
+1.  **Install Deps:**                                                                                     
+    ``` python                                                                                                       
+    Virtual Env
+    python3 -m venv venv && pipinstall bs4 dnspython lxml PySocks requests
+
+    Pip
+    pip install bs4 dnspython lxml PySocks requests
+    
+    ```       
+
+2.  **Usage::**                                                               
+    ``` python                                                                                                      
+
+    python3 xscrap.py url --proxy proxyurl
+                                                                                                                                                                  
+    ```     
                                                                                                                                                                                                                                                                                                                                                                         
                                                                                                                                                                                                                                                                                                                                                                          
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) <!-- Optional: Add badges for build status, etc. -->                                                                                                                                                                                                                                                                                                           
