@@ -56,9 +56,9 @@ def setup_session(proxy_url=None):
             session.proxies.update(proxies)
             print_info(f"Using proxy: {proxy_url}")
             # Test proxy connection (optional, can slow down startup)
-            # print_info("Testing proxy connection...")
-            # session.get("https://httpbin.org/ip", timeout=REQUEST_TIMEOUT)
-            # print_info("Proxy connection successful.")
+            print_info("Testing proxy connection...")
+            session.get("https://httpbin.org/ip", timeout=REQUEST_TIMEOUT)
+            print_info("Proxy connection successful.")
         except requests.exceptions.RequestException as e:
             print_error(f"Proxy connection failed: {e}")
             print_warning("Continuing without proxy.")
@@ -185,7 +185,7 @@ def find_subdomains(domain):
     found_subdomains = []
     resolver = dns.resolver.Resolver()
     # Optionally configure resolver (e.g., specific nameservers)
-    # resolver.nameservers = ['8.8.8.8']
+    resolver.nameservers = ['8.8.8.8']
 
     for sub in COMMON_SUBDOMAINS:
         target_subdomain = f"{sub}.{domain}"
@@ -239,7 +239,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Web Reconnaissance Scraper for Security Audits.")
     parser.add_argument("url", help="Target URL (e.g., https://example.com)")
     parser.add_argument("-p", "--proxy", help="Proxy URL (e.g., http://127.0.0.1:8080 or socks5://127.0.0.1:9050)", default=None)
-    # parser.add_argument("-w", "--wordlist", help="Wordlist file for more extensive subdomain bruteforcing (optional)") # Example for future extension
+    parser.add_argument("-w", "--wordlist", help="Wordlist file for more extensive subdomain bruteforcing (optional)") # Example for future extension
 
     args = parser.parse_args()
 
