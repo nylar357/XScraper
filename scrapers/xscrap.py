@@ -8,7 +8,13 @@ from urllib.parse import urlparse, urljoin
 import dns.resolver
 import sys
 import socket # For socket.gaierror
+# --- Creation ---
+# by nylar357
+# email :bryce_polymorph@proton.me
+# www.linkedin.com/in/brycezg
+# Free Use but please give me some credit
 
+# --- Configuration ---
 # --- Configuration ---
 COMMON_SUBDOMAINS = [
     "www", "mail", "ftp", "localhost", "webmail", "smtp", "pop", "ns1", "ns2",
