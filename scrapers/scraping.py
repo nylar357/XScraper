@@ -6,7 +6,13 @@ import time
 import base64
 import re
 import mimetypes
+# --- Creation ---
+# by nylar357
+# email :bryce_polymorph@proton.me
+# www.linkedin.com/in/brycezg
+# Free Use but please give me some credit
 
+# --- Configuration ---
 # --- Configuration ---
 TARGET_URL = 'https://hackernews.com' # <<<--- CHANGE THIS TO THE WEBSITE URL YOU WANT TO SCRAPE
 SAVE_DIRECTORY = 'scraped_images'      # <<<--- CHANGE THIS IF YOU WANT A DIFFERENT FOLDER NAME
