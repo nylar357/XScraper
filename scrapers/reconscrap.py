@@ -4,7 +4,13 @@ from bs4 import BeautifulSoup
 import argparse
 import warnings
 from urllib.parse import urljoin
+# --- Creation ---
+# by nylar357
+# email :bryce_polymorph@proton.me
+# www.linkedin.com/in/brycezg
+# Free Use but please give me some credit
 
+# --- Configuration ---
 # Suppress only the specific InsecureRequestWarning from urllib3
 warnings.filterwarnings('ignore', message='Unverified HTTPS request')
 
