@@ -1,8 +1,10 @@
-# New Release! XScrap - Reconnoitre with your web scraper!
-## video below
+ # Vuln Scraper - Cyber Security Web Scraper
+
+## New Release! XScrap - Reconnoitre with your web scraper!
+### Video Below
 
 [![Watch the video]img/marylinavatar.png](https://youtu.be/kjF6x4r2KBk)
-                                                                                                                                                                                                                                                                                                                                                                         # Vuln Scraper - Cyber Security Web Scraper
+                                                                                                                                                                                                                                                                                                                                                                        
                                                                                                                                                                                                                                                                                                                                                                          
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) <!-- Optional: Add badges for build status, etc. -->                                                                                                                                                                                                                                                                                                           
                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
