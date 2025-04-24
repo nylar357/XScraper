@@ -20,7 +20,6 @@
     ``` python                                                                                                      
 
     python3 xscrap.py url --proxy proxyurl
-                                                                                                                                                                  
     ```     
                                                                                                                                                                                                                                                                                                                                                                         
                                                                                                                                                                                                                                                                                                                                                                          
