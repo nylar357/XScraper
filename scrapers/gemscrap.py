@@ -2,7 +2,13 @@ import requests
 import os                                                                                                                                                                                   
 from bs4 import BeautifulSoup                   
 from urllib.parse import urljoin, urlparse      
-                                                                                                     
+# --- Creation ---
+# by nylar357
+# email :bryce_polymorph@proton.me
+# www.linkedin.com/in/brycezg
+# Free Use but please give me some credit
+
+# --- Configuration ---                                                                                                     
 # images scraper - prompt supported #                                                                                                                                                
 def scrape_images(url, folder_name="downloaded_images"):                                                                                        
     """                                                                                                                                         
