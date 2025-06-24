@@ -10,6 +10,11 @@ import json
 from urllib.parse import urlparse, urlunparse
 import shutil  # To check if searchsploit exists
 
+# --- Creation ---
+# by nylar357
+# email :bryce_polymorph@proton.me
+# www.linkedin.com/in/brycezg
+
 # --- Configuration ---
 DEFAULT_USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
 DEFAULT_TIMEOUT = 10  # seconds
