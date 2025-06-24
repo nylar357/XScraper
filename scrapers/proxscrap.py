@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
 
+# --- Creation ---
+# by nylar357
+# email :bryce_polymorph@proton.me
+# www.linkedin.com/in/brycezg
+
 import argparse
 import requests
 import re
