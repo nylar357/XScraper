@@ -3,6 +3,10 @@ import os
 import socket
 import subprocess
 import requests
+# --- Creation ---
+# by nylar357
+# email :bryce_polymorph@proton.me
+# www.linkedin.com/in/brycezg
 
 def find_subdomains(domain):
     """
