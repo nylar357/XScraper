@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Created by n̷ y̷ l̷ a̷ r̷ ₃₅₇
 # USAGE: ./1shot.sh <INPUT>
 # Example: ./1shot.sh example.com
 echo "Created by n̷ y̷ l̷ a̷ r̷ ₃₅₇"
