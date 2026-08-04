@@ -3,7 +3,7 @@
 ## New Release! XScrap - Reconnoitre with your web scraper!
 ### Video Below
 
-[![Watch the video](img/marylinavatar.png)](https://youtu.be/kjF6x4r2KBk)
+[![Watch the video](img/1shot.png)](https://youtu.be/kjF6x4r2KBk)
 
 ### Xscrap allows for proxy usage, user agent customizing, web service enumeration, scraps robots.txt, site related emails, and sub-domain enumeration.
 1.  **Install Deps:**                                                                                     
