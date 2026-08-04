@@ -7,7 +7,7 @@
 
 A suite of tools—now featuring `1shot.sh`—designed to gather publicly available information from specified web sources for cybersecurity intelligence, threat monitoring, and open-source intelligence (OSINT) gathering.
 
-**Disclaimer:** This tool is intended for **educational and ethical purposes only**. Ensure you have explicit permission before scraping any website, respect `ALL FILES ON YOUR TARGET`, and comply with all applicable laws and terms of service. The developers assume no liability and are not responsible for any misuse or damage caused by this tool.
+**Disclaimer:** This tool is intended for **educational and ethical purposes only**. Ensure you have explicit permission before scraping any website, respect `ALL FILES ON YOUR TARGET`, and comply with `all applicable laws` and terms of service. The `developers assume no liability and are not responsible for any misuse or damage` caused by this tool.
 
 ---
 
