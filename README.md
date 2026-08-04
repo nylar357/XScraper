@@ -84,3 +84,37 @@ In the realm of cybersecurity, staying informed about emerging threats, vulnerab
 Run the streamlined reconnaissance script directly against your authorized target:
 ```bash
 ./1shot.sh <target_domain>
+```
+## Ethical Considerations
+
+**Using this tool responsibly is paramount.**
+
+    Legality & Permissions: Only scrape websites where you have explicit permission or where the robots.txt file permits scraping the intended sections. Always comply with the website's Terms of Service. Scraping private forums or restricted areas is illegal and unethical.
+
+    Server Load: Implement significant delays between requests (time.sleep()). Do not overload the target servers. Set a descriptive and truthful User-Agent string that allows website administrators to identify your bot.
+
+    Data Privacy: Be extremely cautious when searching for or handling potentially sensitive information (PII, credentials). Do not collect, store, or distribute private data found inadvertently. Focus on publicly acknowledged threats and vulnerabilities.
+
+    Purpose: Use the gathered information ethically for defensive cybersecurity purposes only. Do not use it to facilitate unauthorized access, harassment, or any illegal activities.
+
+### Misuse of this tool can lead to legal consequences and blocking of your IP address 
+
+#### Contributing
+
+##### Contributions are welcome! If you'd like to improve the scraper, please follow these steps:
+
+    Fork the repository.
+
+    Create a new branch (git checkout -b feature/YourFeatureName).
+
+    Make your changes.
+
+    Commit your changes (git commit -m 'Add some feature').
+
+    Push to the branch (git push origin feature/YourFeatureName).
+
+    Open a Pull Request.
+
+License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
