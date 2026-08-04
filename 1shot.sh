@@ -1,8 +1,9 @@
 #!/bin/bash
 
+# Created by n̷ y̷ l̷ a̷ r̷ ₃₅₇
 # USAGE: ./1shot.sh <INPUT>
 # Example: ./1shot.sh example.com
-
+echo "Created by n̷ y̷ l̷ a̷ r̷ ₃₅₇"
 if [ -z "$1" ]; then
     echo "Usage: $0 <INPUT_DOMAIN_OR_IP>"
     echo "Example: $0 example.com"
@@ -118,3 +119,6 @@ else
 fi
 echo "-------------------------------------------------------"
 echo "Data stored in: $PWD"
+echo "Created by n̷ y̷ l̷ a̷ r̷ ₃₅₇"
+echo "𝕥𝕙𝕒𝕟𝕜 𝕪𝕠𝕦 𝕗𝕠𝕣 𝕪𝕠𝕦𝕣 𝕦𝕤𝕖, 𝕀 𝕙𝕠𝕡𝕖 𝕥𝕙𝕖 𝕒𝕓𝕚𝕝𝕚𝕥𝕪 𝕥𝕠 𝕗𝕦𝕣𝕥𝕙𝕖𝕣 𝕤𝕖𝕔𝕦𝕣𝕖 𝕪𝕠𝕦𝕣 𝕒𝕤𝕤𝕖𝕥𝕤 𝕨𝕒𝕤 𝕒𝕔𝕙𝕚𝕖𝕧𝕖𝕕.  𝕊𝕙𝕠𝕦𝕝𝕕 𝕪𝕠𝕦 𝕙𝕒𝕧𝕖 𝕒𝕟𝕪 𝕗𝕖𝕖𝕕𝕓𝕒𝕔𝕜 𝕠𝕣 𝕣𝕖𝕔𝕠𝕞𝕞𝕖𝕟𝕕𝕒𝕥𝕚𝕠𝕟𝕤 𝕡𝕝𝕖𝕒𝕤𝕖 𝕗𝕖𝕖𝕝 𝕗𝕣𝕖𝕖 𝕥𝕠 𝕔𝕠𝕟𝕥𝕒𝕔𝕥 :"
+echo "👉 𝗯𝗿𝘆𝗰𝗲𝗺𝗶𝗰𝗲@𝗰𝟬𝗻𝘁𝗿𝗮.𝗼𝗿𝗴 👈"
